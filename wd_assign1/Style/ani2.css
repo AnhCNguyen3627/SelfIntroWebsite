@@ -1,0 +1,9 @@
+@keyframes slidein {from {margin-left: -100%;} to {margin-left: 0%;}}
+article {animation: slidein 2s;}
+article h2 {animation: slidein 2s; animation-delay: 2s; animation-fill-mode: both;}
+#music {animation: slidein 1s; animation-delay: 4s; animation-fill-mode: both;}
+#tv {animation: slidein 1s; animation-delay: 5s; animation-fill-mode: both;}
+#game {animation: slidein 1s; animation-delay: 6s; animation-fill-mode: both;}
+#book {animation: slidein 1s; animation-delay: 7s; animation-fill-mode: both;}
+@keyframes slideinreverse {from {margin-right: -100%;} to {margin-right: 0%;}}
+aside {animation: slideinreverse 1s; animation-delay:8s; animation-fill-mode: both;}

@@ -1,0 +1,41 @@
+@media screen and (min-width: 1024px) {header, nav {border-style:solid;}
+header {background-color: red; border-width: 1px;}
+header h1 {color:white; text-align: center; font-size:300%}
+nav {padding: 5px; margin-bottom: 5px; margin-top: 5px; height:1em; line-height:1em; background-color: yellow; border-width: 1px; border-color: white;}
+nav a {float:left; width:10em; text-decoration:none; color:white; background-color:green; border-right: 1px solid white;}
+nav a:hover {background-color: pink;}
+article {float:left; width:65%; border-style:solid; padding: 10px; box-shadow: 3px 3px 3px 2px #797979; border-width:1px; font-size:150%;}
+article h2 {text-shadow: black 2px 2px 2px; background-color: blue; color:white;}
+#music {background: red; padding-left: 5px; border-style:solid; border-width:1px; margin:1px; border-color: black;}
+#music p, #tv p, #game p, #book p {font-size: 130%;}
+#tv {background-color: yellow; color:black; padding-left: 5px; border-style:solid; border-width:1px; margin:1px; border-color: black;}
+#game {background-color: green; padding-left: 5px; border-style:solid; border-width:1px; margin:1px; border-color: black;}
+#book {background-color: deeppink; padding-left: 5px; border-style:solid; border-width:1px; margin:1px; border-color: black;}
+#music a, #game a, #book a {color:white;}
+#music p, #game p, #book p {color:white;}
+#tv a {color:black;}
+aside {float:right; width:27%; border-style:solid; padding: 5px;}
+img {width:98.2%;}
+aside p {background-color: gold; border-style:solid; border-width:1px; color:black; margin-top:3px; margin-bottom: 5px; text-align: center;}
+footer {clear:both; border-style:solid; margin-top: 20px; color:white; background-color: purple; border-width: 1px; padding-left:10px;}}
+@media screen and (max-width: 1023px) {header, nav {border-style:solid;}
+header {background-color: red; border-width: 1px;}
+header h1 {color:white; text-align: center;}
+nav {padding: 5px; margin-bottom: 5px; margin-top: 5px; height:3.2em; line-height:1em; background-color: yellow; border-width: 1px; border-color: white;}
+nav a {float:left; text-decoration:none; color:white; background-color:green; border-right: 1px solid white; width:49%; margin:1px;}
+nav a:hover {background-color: pink;}
+article {float:center; width:94%; border-style:solid; padding: 10px; border-width:1px; background-color: white}
+article h2 {text-shadow: black 2px 2px 2px; background-color: blue; color:white; text-align: center; padding: 5px; margin:0px 0px 5px;}
+#music {background: red; padding-left: 5px; border-style:solid; border-width:1px; margin:1px; border-color: black;}
+#tv {background-color: yellow; color:black; padding-left: 5px; border-style:solid; border-width:1px; margin:1px; border-color: black;}
+#game {background-color: green; padding-left: 5px; border-style:solid; border-width:1px; margin:1px; border-color: black;}
+#book {background-color: deeppink; padding-left: 5px; border-style:solid; border-width:1px; margin:1px; border-color: black;}
+#music a, #game a, #book a {color:white;}
+#tv a {color:black;}
+#music p, #game p, #book p {color:white; font-size:110%;}
+#tv p {color:black; font-size:110%;}
+aside {border-style:solid; padding: 5px; background-color: white; float:center; margin-top: 10px;}
+img {width:100%}
+aside p {background-color: gold; color:black; margin: 3px 0px 4px 0px;text-align: center;}
+footer {clear:both; border-style:solid; margin-top: 20px; color:white; background-color: purple; border-width: 1px; padding-left:10px;}
+body {background-color: #333333;}}
